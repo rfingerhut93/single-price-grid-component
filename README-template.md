@@ -16,8 +16,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -42,7 +40,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -50,62 +47,49 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- javaScript
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+While working on this project, I learned a good foundation for creating a product from the ground up. I focused on getting the structure sound with HTML and CSS first. Doing this allowed me to practice seeing the price chart as divs, which helped me build the structure. I'm proud of figuring out that I could use a container holding two divs to get the alignment of the price and price frequency.
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div id="price-container">
+  <div id="price">&dollar;29</div>
+  <div id="price-frequency">per month</div>
+</div>
 ```
+I had fun making the button function like a button using both CSS and javaScript. When clicked, the button will have a pop-up alert saying "Thanks for signing up!".
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+button:hover {
+      cursor: pointer;
+      background-color: #A9C42a;
+      transform: scale(1.02);
+    }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+function alertUser() {
+      alert('Thanks for signing up!');
+    }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to continue practicing responsive design as I don't see how it would ever be useful to design something that is not responsive.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Frontend Web Development Bootcamp Course](https://www.youtube.com/watch?v=zJSY8tbf_ys&t=19066s) - This helped me learn the basics of HTML, CSS, and javaScript and showcased a ton of useful resources.
+- [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html) - This is an amazing visualization tool that made creating a box shadow a lot easier.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@rfingerhut93](https://www.frontendmentor.io/profile/rfingerhut93)
+- Github - [@rfingerhut93](https://www.twitter.com/rfingerhut93)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to Zach Gollwitzer for being an amazing teacher!
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
