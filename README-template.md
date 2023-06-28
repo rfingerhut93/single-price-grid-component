@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://rfingerhut93.github.io/
+- Solution URL: https://rfingerhut93.github.io/single-price-grid-component/
 
 ## My process
 
