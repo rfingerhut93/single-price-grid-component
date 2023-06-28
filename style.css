@@ -20,15 +20,12 @@ h2, h4, p {
 }
 
 #card{
-  width: 700px;
-  height: 400px;
   box-shadow: -1px 3px 8px 0px rgba(0,0,0,0.26);
   -webkit-box-shadow: -1px 3px 8px 0px rgba(0,0,0,0.26);
   -moz-box-shadow: -1px 3px 8px 0px rgba(0,0,0,0.26);
   border-radius: 5px;
   overflow: hidden;
 }
-
 
 #top-section {
   padding: 35px;
@@ -62,7 +59,7 @@ h2, h4, p {
   padding: 35px;
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: hsl(179, 62%, 43%);
 }
@@ -118,7 +115,7 @@ button:hover {
   padding: 35px;
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: hsl(179, 62%, 63%);
 }
@@ -130,9 +127,13 @@ button:hover {
   opacity: 0.7;
 }
 
-@media all and (min-width: 400px) and (max-width: 600px) {
-    #card{
-        width: 100%;
-        height: 100%;
-    }
-} 
+@media (min-width: 576px) {
+  #card {
+    width: 550px;
+    height: 400px;
+  }
+
+  #bottom-left-section, #bottom-right-section {
+    width: 50%;
+  }
+}
