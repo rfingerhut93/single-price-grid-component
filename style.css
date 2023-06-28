@@ -91,23 +91,21 @@ button:hover {
   opacity: 0.8;
 }
 
+#price-container {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
 #price {
   font-weight: 700;
   font-size: 1.5rem;
-  display:inline-block;
-  vertical-align: middle;
 }
 
 #price-frequency {
   font-size:0.8rem;
-  display: inline-block;
-  vertical-align: middle;
   opacity: 0.6;
   margin-left: 5px;
-}
-
-#price-container {
-  margin-bottom: 10px;
 }
 
 #bottom-right-section {
